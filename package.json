@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Advanced web interface for parsing infostealer malware logs",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "api-server": "python -m uvicorn api.main:app --reload --host 0.0.0.0 --port 8000"
   },

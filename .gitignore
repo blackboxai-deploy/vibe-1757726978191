@@ -1,6 +1,5 @@
 # Editors
 .idea/
-.vscode
 
 # Temporary files
 .DS_Store
@@ -89,3 +88,5 @@ dmypy.json
 
 logs
 data
+config.bat
+node_modules
