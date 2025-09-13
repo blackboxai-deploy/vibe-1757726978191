@@ -89,3 +89,5 @@ dmypy.json
 
 logs
 data
+config.bat
+node_modules
